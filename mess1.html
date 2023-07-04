@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Your Meal</title>
+  <style>
+    /* CSS styles for the website header */
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .logo img {
+      height: 150px; /* Adjust the height as per your preference */
+      margin-right: 10px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* Align content to the left */
+    }
+
+    .search-bar select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 150px; /* Adjust the width as per your preference */
+    }
+
+    .search-bar input[type="text"] {
+      margin-left: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 400px; /* Adjust the width as per your preference */
+    }
+
+    .search-bar button {
+      margin-left: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .search-bar button:hover {
+      background-color: #45a049;
+      cursor: pointer;
+    }
+
+    .login-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 9px 20px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .login-btn:hover {
+      background-color: #45a049;
+      cursor: pointer;
+    }
+
+    /* Additional button styles */
+    .button-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .custom-button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .custom-button:hover {
+      background-color: #45a049;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/k6RzkFZ/hand-drawn-indian-cuisine-illustration-23-2149323580-removebg-preview.png" alt="hand-drawn-indian-cuisine-illustration" border="0"></a>
+      FYM &nbsp;Find Your Meal
+    </div>
+    <div class="search-bar">
+      <select name="city">
+        <option value="" selected disabled>Select City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Pune">Pune</option>
+        <option value="Nashik">Nashik</option>
+        <option value="Jalgoan">Jalgoan</option>
+        <option value="Nanded">Nanded</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Amravati">Amravati</option>
+        <!-- Add more Indian city options as needed -->
+      </select>
+      <input type="text" placeholder="Search for area...">
+      <button type="submit">Search</button>
+      <button class="login-btn">Log In / Sign In</button>
+    </div>
+  </header>
+  <nav>
+    <a href="mess1-1.html" class="custom-button">Mess 1</a>
+    <a href="mess1-1.html" class="custom-button">Mess 2</a>
+    <a href="mess1-1.html" class="custom-button">Mess 3</a>
+    <a href="mess1-1.html" class="custom-button">Mess 4</a>
+  </nav>
+
+  
+  <!-- Rest of your website content goes here -->
+</body>
+</html>
